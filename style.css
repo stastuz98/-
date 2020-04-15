@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url('img/slider/slider-img.jpg');
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    padding: 10px 13px;
+}
+
+.menu-link-last {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    line-height: 24px;
+}
+
+.button {
+    height: 45px;
+    width: 212px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    display: inline-block;
+    letter-spacing: 3.6px;
+}
+
+.circle {
+    background-color: #c7c7c7;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 45px;
+    margin: 5px;
+}
+
+.circle:hover {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin: 0;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.pagination {
+    position: absolute;
+    text-align: center;
+    width: 1170px;
+    top: 741px;
+}
+
+/*featured-product*/
+.featured-product {
+    padding-top: 120px;
+    padding-left: 98px;
+    padding-right: 97px;
+}
+
+.product {
+    padding-bottom: 120px;
+}
+
+.product-list {
+    list-style-type: none;
+    float: left;
+}
+
+.product-link{
+    text-decoration: none;
+    color:  #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #6c6c6c;
+    padding: 5px 15px;
+}
+
+.product-link:hover {
+    text-decoration: none;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.link-explore {
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+}
+
+.photos-cataloge {
+    padding-top: 50px;
+}
+
+.photo-product {
+    list-style-type: none;
+    float: left;
+}
+
+.product {
+    width: 270px;
+    height: 270px;
+}
+
+.photo-product:nth-last-child(n+2) {/*все кроме последнего*/
+    padding-right: 30px;
+}
+
+/*exclusive*/
+.main-exclusive {
+    height: 683px;
+}
+
+.spisok-exclusive {
+    list-style-type: none;
+}
+
+.list-exclusive {
+    float: left;
+}
+
+.exclusive {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.exclusive-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive-p {
+    display: block;
+    width: 374px;
+}
+
+.list-exclusive-1 {
+    width: 683px;
+    height: 683px;
+    background-image: url('img/exclusive/promo-img1.jpg');
+}
+
+.list-exclusive-2 {
+    width: 683px;
+    height: 683px;
+    background-image: url('img/exclusive/promo-img2.jpg');
+}
+
+.exclusive {
+    font-weight: 700;
+    padding-top: 228px;
+    padding-left: 50px;
+}
+
+.exclusive-h2 {
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.exclusive-p {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.exclusive-button {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/*trending-products*/
+.trending-products {
+    height: 1108px;
+}
+
+.trending-products-menu{
+    padding: 119px 98px 80px;
+}
+
+.trending-products-menu-h2{
+    width: 331px;
+    height: 35px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+}
+
+.trending-products-menu-a{
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+}
+
+.trending-products-photo {
+    width: 1170px;
+    height: 770px;
+    margin: 0 auto;
+}
+
+.trending-products-photo-li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+
+/*hot-deal*/
+.hot-deal {
+    height: 800px;
+    background-color: aquamarine;
+    background-image: url('img/hot-deal/slider.jpg');
+}
+
+.hot-deal-content {
+    padding-top: 287px;
+    margin-left: 98px;
+}
+
+.hot-deal-content-p1 {
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.hot-deal-content-h2 {
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.hot-deal-content-p2 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    clear: both;
+    width: 470px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.hot-deal-pagination {
+    margin-top: 226px;
+    margin-left: 623px;
+}
+
+/*exclusive-obj*/
+.exclusive-obj {
+    height: 810px;
+}
+
+.exclusive-obj-content-main {
+    width: 570px;
+    height: 570px;
+    margin-left: 98px;
+    margin-top: 120px;
+    float: left;
+    background-image: url('img/exclusive-obj/product-1.jpg');
+}
+
+.exclusive-obj-content-main-p1 {
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-left: 30px;
+    margin-top: 186px;
+}
+
+.exclusive-obj-content-main-h2 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.exclusive-obj-content-main-p2 {
+    width: 332px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24.04px;
+    padding-left: 30px;
+}
+
+.exclusive-obj-button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.exclusive-obj-ul {
+    width: 570px;
+    height: 570px;
+    float: left;
+    margin-right: 98px;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.exclusive-obj-li {
+    list-style-type: none;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/*mobile-app*/
+.mobile-app {
+    height: 516px;
+    background-image: url('img/mobile-app/back-img.jpg');
+}
+
+.contacts{
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.mobile-app-content {
+    margin-top: 125px;
+    margin-left: 98px;
+    float: left;
+}
+
+.mobile-app-content-p1 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.mobile-app-content-h1 {
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+    width: 450px;
+}
+
+.mobile-app-content-p2 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.mobile-app-a {
+    margin-top: 33px;
+    margin-right: 5px;
+    float: left;
+}
+
+/*contacts*/
