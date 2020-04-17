@@ -1,3 +1,35 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
+
 * {
     margin: 0;
     padding: 0;
@@ -139,64 +171,75 @@ body {
 
 /*featured-product*/
 .featured-product {
-    padding-top: 120px;
-    padding-left: 98px;
-    padding-right: 97px;
-}
-
-.product {
-    padding-bottom: 120px;
+   height: 609px;
 }
 
 .product-list {
     list-style-type: none;
-    float: left;
+    float:left;
 }
 
-.product-link{
+.product-link {
     text-decoration: none;
-    color:  #6c6c6c;
+    color: #6c6c6c;
     font-size: 36px;
     font-weight: 700;
-    border-bottom: 3px solid #6c6c6c;
-    padding: 5px 15px;
+    border-bottom: 2px solid #6c6c6c;
 }
 
 .product-link:hover {
-    text-decoration: none;
     color: #212121;
-    font-size: 36px;
-    font-weight: 700;
-    border-bottom: 3px solid #212121;
+    border-bottom: 2px solid #212121;
 }
 
 .link-explore {
-    float: right;
     text-decoration: none;
+    padding-left: 730px;
+    color: #212121;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    color: #212121;
     letter-spacing: 3.6px;
+    display: inline-block;
+    padding-top: 18px;
 }
 
-.photos-cataloge {
-    padding-top: 50px;
+.header-product {
+    width: 1171px;
+    padding-top: 100px;
+    padding-left: 98px;
+}
+
+.photos-cataloge{
+    margin-top: 72px;
+    width: 1200px;
+    height: 270px;
+    padding-left: 98px;
 }
 
 .photo-product {
     list-style-type: none;
-    float: left;
-}
-
-.product {
     width: 270px;
     height: 270px;
+    float: left;
+    margin-right: 30px;;
 }
 
-.photo-product:nth-last-child(n+2) {/*все кроме последнего*/
-    padding-right: 30px;
+.prod1 {
+    background-image: url(img/featured-product/product-1.jpg);
+}
+.prod2 {
+    background-image: url(img/featured-product/product-2.jpg);
+}
+.prod3 {
+    background-image: url(img/featured-product/product-3.jpg);
+}
+.prod4 {
+    background-image: url(img/featured-product/product-4.jpg);
+}
+.photo-product:hover {
+    background-image: url(img/featured-product/product-content-hover.png);
 }
 
 /*exclusive*/
@@ -258,6 +301,7 @@ body {
 .exclusive-p {
     padding-top: 20px;
     padding-left: 50px;
+    font-weight: 700;
 }
 
 .exclusive-button {
@@ -324,7 +368,6 @@ body {
 
 .hot-deal-content-p1 {
     color: #e53935;
-    font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     line-height: 48px;
@@ -334,7 +377,6 @@ body {
 
 .hot-deal-content-h2 {
     color: #212121;
-    font-family: "Montserrat - Thin";
     font-size: 62px;
     font-weight: 400;
     line-height: 72px;
@@ -344,7 +386,6 @@ body {
 
 .hot-deal-content-p2 {
     color: #6c6c6c;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
@@ -454,12 +495,11 @@ body {
 
 .mobile-app-content-h1 {
     color: #212121;
-    font-family: "Montserrat - Thin";
     font-size: 62px;
     font-weight: 400;
     line-height: 72px;
     text-transform: uppercase;
-    width: 450px;
+    width: 500px;
 }
 
 .mobile-app-content-p2 {
@@ -512,6 +552,7 @@ body {
 .useful-information {
     float: left;
     padding-right: 80px;
+    padding-left: 80px;
 }
 
 .useful-information-li {
@@ -546,10 +587,24 @@ body {
     height: 36px;
 }
 
+.input-email {
+    width: 370px;
+    height: 48px;
+}
+
+.lets-p2 {
+    padding-top: 20px;
+}
+
+.lets-p2 input[type=email]{
+    padding-left: 10px;
+    height:24px;
+    font-size: 15px;
+}
+
 .lets-p {
     padding-top: 24px;
     color: #212121;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
     line-height: 22px;
@@ -557,7 +612,7 @@ body {
 
 .copyright {
     padding-left: 98px;
-    padding-top: 77px;
+    padding-top: 50px;
     float: left;
 }
 
@@ -566,7 +621,6 @@ body {
     width: 362px;
     height: 9px;
     color: #6c6c6c;
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: 700;
     line-height: 26px;
@@ -574,16 +628,24 @@ body {
     letter-spacing: 0.6px;
 }
 
+.internet-link {
+    float: left;
+}
+
+.internet {
+    display: inline-block;
+    padding-left: 158px;
+}
+
 .copyright-p2 {
     width: 350px;
     height: 12px;
     color: #6c6c6c;
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     display: inline-block;
-    padding-left: 459px;
+    padding-left: 165px;
 }
